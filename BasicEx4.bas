@@ -1,7 +1,5 @@
-10 INPUT "Digite uma temperatura em Celsius : "; CEL$
-20 LET Kelvin = VAL(CEL$) + 273
-30 LET Fah = (VAL(CEL$) * 1.8) + 32
-40 PRINT "Celsius : ", CEL$
-50 PRINT "Kelvin : ", Kelvin
-60 PRINT "Fahrenheit : ", Fah
+10 INPUT "Digite seu peso : "; peso$
+20 INPUT "Digite sua altura : "; altura$
+30 LET imc = VAL(peso$) / (VAL(altura$) * VAL(altura$))
+40 PRINT "O seu IMC é : ", imc
 70 END
