@@ -13,3 +13,4 @@
 93 IF media_nova < 50 THEN GOTO 100
 100 PRINT "Reprovado na NP3"
 110 END
+//a
