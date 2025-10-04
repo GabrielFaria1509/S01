@@ -1,8 +1,6 @@
 using System;  // Importa a biblioteca System para usar Console
 using System.Collections.Generic; // Importa a biblioteca System.Collections.Generic para usar List<>
-using System.Data.Common;
-using System.Linq;
-using System.Runtime.InteropServices;
+
 
 
 // Definição de uma classe chamada MembroDaSociedade
