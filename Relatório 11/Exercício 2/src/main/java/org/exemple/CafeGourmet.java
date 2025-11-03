@@ -4,6 +4,8 @@
  * EXERCÍCIO 1 (continuação): Usar herança para especializar Cafe.
  * CafeGourmet É UM Cafe, então usamos 'extends'.
  */
+package org.example;
+
 public class CafeGourmet extends Cafe {
 
     // Atributo específico da classe filha
@@ -32,4 +34,5 @@ public class CafeGourmet extends Cafe {
         // Como 'precoBase' é protected, posso acessar diretamente.
         return this.precoBase + this.bonusAroma;
     }
+
 }
