@@ -2,6 +2,8 @@
 
 // EXERCÍCIO 4: Gerenciar itens com ArrayList. Preciso importar.
 import java.util.ArrayList;
+package org.example;
+
 
 /**
  * EXERCÍCIO 3: Implementar Composição.
@@ -40,4 +42,5 @@ public class Menu {
     public ArrayList<Cafe> getItens() {
         return this.itens;
     }
+
 }
