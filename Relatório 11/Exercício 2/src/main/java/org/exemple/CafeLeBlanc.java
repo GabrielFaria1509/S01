@@ -4,7 +4,11 @@
  * EXERCÍCIO 3 (continuação): Implementar Composição.
  * A Cafeteria (CafeLeblanc) "TEM UM" Menu.
  * Esta é a classe principal que administra o cenário.
+ 
+
  */
+package org.example;
+
 public class CafeLeblanc {
 
     // O UML usa '_menu'. Em Java, isso geralmente significa private.
@@ -42,4 +46,5 @@ public class CafeLeblanc {
         }
         System.out.println("-----------------------------");
     }
+
 }
