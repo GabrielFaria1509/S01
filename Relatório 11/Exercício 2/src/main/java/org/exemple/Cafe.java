@@ -5,6 +5,8 @@
  * Esta é a classe base (superclasse). O Sojiro quer diferenciar os tipos,
  * então essa é a classe genérica.
  */
+package org.example;
+
 public class Cafe {
 
     // O diagrama UML coloca '+' (public), mas atributos devem ser privados ou
@@ -32,4 +34,5 @@ public class Cafe {
     public String getNome() {
         return nome;
     }
+
 }
