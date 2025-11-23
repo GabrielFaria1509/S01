@@ -6,6 +6,8 @@ ancestral(A,D):-
     ancestral(Z,D)
  .
 
+ancestral(uranus,Descendente)
+
 Descendente = cronos
 Descendente = oceano
 Descendente = zeus
